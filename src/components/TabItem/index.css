@@ -1,0 +1,18 @@
+/* Write your CSS here */
+li {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+button {
+  padding-bottom: 15px;
+  font-family: 'Roboto';
+  color: #7b8794;
+  font-weight: 500;
+}
+.blue-color {
+  color: #2563eb;
+}
+.hr {
+  border-color: #2563eb;
+}

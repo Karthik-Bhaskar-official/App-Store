@@ -1,0 +1,62 @@
+/* Write your CSS here */
+* {
+  font-family: 'Bree Serif';
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px #7b8794;
+  padding: 5px;
+  width: 60%;
+  height: 40px;
+  max-width: 400px;
+  border-radius: 5px;
+}
+h1 {
+  padding: 40px;
+  color: #1e293b;
+}
+input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  margin-left: 10px;
+  width: 100%;
+}
+.search-img {
+  width: 25px;
+}
+.un-order-list {
+  list-style-type: none;
+  width: 70%;
+  max-width: 300px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.app-ul {
+  list-style-type: none;
+  width: 70%;
+  max-width: 550px;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
